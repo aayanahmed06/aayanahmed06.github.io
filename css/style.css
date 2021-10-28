@@ -1,52 +1,56 @@
-.username{
-    background-color: blue;
-    color: white;
+.username {
+  background-color: blue;
+  color: white;
 }
-.picture{
-    width: 200px;
-    border: 3px black solid;
-}
-
-.introduction{
-    background-color:rgb(216, 191, 216) ;
+.picture {
+  width: 200px;
+  border: 3px black solid;
 }
 
-.link{
-    background-color:chartreuse;
-    color:black;
-    border:black 2px solid;
-
-    border-radius: 2px;
-    
+.introduction {
+  background-color: rgb(216, 191, 216);
 }
 
-.skill2{
-    background-color: blue;
-    color: white;
+.link {
+  background-color: chartreuse;
+  color: black;
+  border: black 2px solid;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.skill1{
-    background-color:rgb(216, 191, 216) ;
+.link:hover {
+  color: white;
+  background-color: black;
 }
-.exp1{
-    background-color:rgb(216, 191, 216) ;
-}
-.exp2{
-    background-color: blue;
-    color: white;
 
+.skill2 {
+  background-color: blue;
+  color: white;
 }
-.edu1{
-    background-color: rgb(216, 191, 216);
+
+.skill1 {
+  background-color: rgb(216, 191, 216);
 }
-.edu2{
-    background-color: blue;
-    color: white;
+.exp1 {
+  background-color: rgb(216, 191, 216);
 }
-.con1{
-    background-color: rgb(216, 191, 216) ;
+.exp2 {
+  background-color: blue;
+  color: white;
 }
-.con2{
-    background-color: blue;
-    color: white;
+.edu1 {
+  background-color: rgb(216, 191, 216);
+}
+.edu2 {
+  background-color: blue;
+  color: white;
+}
+.con1 {
+  background-color: rgb(216, 191, 216);
+}
+.con2 {
+  background-color: blue;
+  color: white;
 }

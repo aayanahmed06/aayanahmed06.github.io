@@ -1,0 +1,52 @@
+.username{
+    background-color: blue;
+    color: white;
+}
+.picture{
+    width: 200px;
+    border: 3px black solid;
+}
+
+.introduction{
+    background-color:rgb(216, 191, 216) ;
+}
+
+.link{
+    background-color:chartreuse;
+    color:black;
+    border:black 2px solid;
+
+    border-radius: 2px;
+    
+}
+
+.skill2{
+    background-color: blue;
+    color: white;
+}
+
+.skill1{
+    background-color:rgb(216, 191, 216) ;
+}
+.exp1{
+    background-color:rgb(216, 191, 216) ;
+}
+.exp2{
+    background-color: blue;
+    color: white;
+
+}
+.edu1{
+    background-color: rgb(216, 191, 216);
+}
+.edu2{
+    background-color: blue;
+    color: white;
+}
+.con1{
+    background-color: rgb(216, 191, 216) ;
+}
+.con2{
+    background-color: blue;
+    color: white;
+}

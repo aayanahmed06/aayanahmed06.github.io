@@ -1,58 +1,49 @@
-.username {
-  background-color: blue;
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* i have to add font here */
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
   color: white;
 }
-.picture {
-  width: 200px;
-  border: 3px black solid;
+#header {
+  background-color: #fbe9c1;
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.introduction {
-  background-color: rgb(216, 191, 216);
-  text-align: center;
+nav ul {
+  display: flex;
 }
 
-.link {
-  background-color: chartreuse;
-  color: black;
-  border: black 2px solid;
-  border-radius: 2px;
+nav ul li a {
+  height: 40px;
+  margin-left: 10px;
+  padding: 0 20;
+}
+
+.getintouch {
+  background-color: #2d3e50;
   margin: 10px;
   padding: 10px;
-  text-decoration: none;
+  border: 3px black solid;
+  border-radius: 50px;
 }
-
-.link:hover {
-  color: white;
-  background-color: black;
-}
-
-.skill2 {
-  background-color: blue;
-  color: white;
-}
-
-.skill1 {
-  background-color: rgb(216, 191, 216);
-}
-.exp1 {
-  background-color: rgb(216, 191, 216);
-}
-.exp2 {
-  background-color: blue;
-  color: white;
-}
-.edu1 {
-  background-color: rgb(216, 191, 216);
-}
-.edu2 {
-  background-color: blue;
-  color: white;
-}
-.con1 {
-  background-color: rgb(216, 191, 216);
-}
-.con2 {
-  background-color: blue;
+.getintouch:hover {
   color: white;
 }

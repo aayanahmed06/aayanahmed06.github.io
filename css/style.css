@@ -1,6 +1,5 @@
 :root {
-  --mycolor:#0fbcf9;
-  
+  --mycolor: #0fbcf9;
 }
 
 body {
@@ -31,7 +30,7 @@ nav {
   left: 0;
   top: 0;
   width: 100%;
-  background-color:var(--mycolor);
+  background-color: var(--mycolor);
   color: black;
 }
 
@@ -53,8 +52,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: maroon;
-  color: white;
+  background-color:white;
+  color:black;
   border-radius: 5px;
 }
 
@@ -87,9 +86,8 @@ nav ul li a:hover {
   top: 100px;
   margin: 50px;
 }
-.sec{
+.sec {
   display: flex;
-
 }
 
 .img1 img {
@@ -97,10 +95,9 @@ nav ul li a:hover {
   padding: 30px;
   display: flex;
   flex-direction: row;
-  
 }
-.head1{
-  margin-left:100px;
+.head1 {
+  margin-left: 100px;
 }
 
 .icons {
@@ -108,66 +105,63 @@ nav ul li a:hover {
   left: 500px;
   display: flex;
   flex-direction: column;
-  
 }
 .p {
   text-align: center;
 }
 
-.head{
+.head {
   margin-left: 10px;
-  
 }
 
-.icon{
-  margin-top:105px;
+.icon {
+  margin-top: 105px;
   margin-right: 200px;
   color: blue;
 }
-.ico{
+.ico {
   text-align: center;
 }
-.link3{
+.link3 {
   text-decoration: none;
   color: white;
   text-align: center;
   padding: 1px;
   border: 3px black solid;
-  background-color:#2d3e50 ;
+  background-color: #2d3e50;
   padding: 10px;
   margin-left: 430px;
   border-radius: 10px;
 }
-.link3:hover{
+.link3:hover {
   background-color: white;
   color: black;
 }
-.sec1{
+.sec1 {
   text-align: center;
 }
-.link4{
+.link4 {
   color: blue;
   text-decoration: underline;
 }
-.link4:hover{
-  color:black;
+.link4:hover {
+  color: black;
 }
 
-.sec2{
+.sec2 {
   text-align: center;
 }
 
-.link5{
+.link5 {
   text-decoration: none;
-  background-color:#2d3e50;
+  background-color: #2d3e50;
   padding: 10px;
   color: white;
   border-radius: 10px;
   border: 3px solid black;
-  
 }
 
-.link5:hover{
+.link5:hover {
   background-color: white;
   color: black;
 }

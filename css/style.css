@@ -1,3 +1,8 @@
+:root {
+  --mycolor:#0fbcf9;
+  
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,30 +16,46 @@ ul {
 }
 a {
   text-decoration: none;
-  color: black;
 }
-a:hover {
-  color: white;
-}
+
 #header {
   background-color: #fbe9c1;
   width: 100%;
 }
+
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color:var(--mycolor);
+  color: black;
 }
 
 nav ul {
   display: flex;
 }
+.logo {
+  color: black;
+}
 
 nav ul li a {
   height: 40px;
-  margin-left: 10px;
-  padding: 0 20;
+  padding: 0 20px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+nav ul li a:hover {
+  background-color: maroon;
+  color: white;
+  border-radius: 5px;
 }
 
 .getintouch {
@@ -43,7 +64,110 @@ nav ul li a {
   padding: 10px;
   border: 3px black solid;
   border-radius: 50px;
+  color: white;
 }
 .getintouch:hover {
+  color: black;
+  background-color: white;
+}
+
+.img img {
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  box-shadow: 3px 3px 4px;
+  margin: 20px;
+}
+
+.text {
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  margin: 50px;
+}
+.sec{
+  display: flex;
+
+}
+
+.img1 img {
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.head1{
+  margin-left:100px;
+}
+
+.icons {
+  position: relative;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.p {
+  text-align: center;
+}
+
+.head{
+  margin-left: 10px;
+  
+}
+
+.icon{
+  margin-top:105px;
+  margin-right: 200px;
+  color: blue;
+}
+.ico{
+  text-align: center;
+}
+.link3{
+  text-decoration: none;
   color: white;
+  text-align: center;
+  padding: 1px;
+  border: 3px black solid;
+  background-color:#2d3e50 ;
+  padding: 10px;
+  margin-left: 430px;
+  border-radius: 10px;
+}
+.link3:hover{
+  background-color: white;
+  color: black;
+}
+.sec1{
+  text-align: center;
+}
+.link4{
+  color: blue;
+  text-decoration: underline;
+}
+.link4:hover{
+  color:black;
+}
+
+.sec2{
+  text-align: center;
+}
+
+.link5{
+  text-decoration: none;
+  background-color:#2d3e50;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: 3px solid black;
+  
+}
+
+.link5:hover{
+  background-color: white;
+  color: black;
 }

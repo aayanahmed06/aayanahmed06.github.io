@@ -1,5 +1,14 @@
+/* todo
+meaningful name of classes and var.
+add commints.
+html and css
+push code to git and send the link to uncle 
+*/
+
+
 :root {
   --mycolor: #0fbcf9;
+  --btncolor: #2d3e50;
 }
 
 body {
@@ -8,6 +17,7 @@ body {
   scroll-behavior: smooth;
   box-sizing: border-box;
   /* i have to add font here */
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 ul {
@@ -33,12 +43,31 @@ nav {
   background-color: var(--mycolor);
   color: black;
 }
+.link1 {
+  text-decoration: none;
+  padding: 10px 50px;
+  background-color: var(--btncolor);
+  color: white;
+  border: 3px black solid;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
+.link1:hover{
+  color:black;
+  background-color: white;
+}
 nav ul {
   display: flex;
 }
+
 .logo {
-  color: black;
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: blue;
+  font-size: 40px;
 }
 
 nav ul li a {
@@ -52,13 +81,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color:white;
-  color:black;
+  background-color: white;
+  color: black;
   border-radius: 5px;
 }
 
 .getintouch {
-  background-color: #2d3e50;
+  background-color: var(--btncolor);
   margin: 10px;
   padding: 10px;
   border: 3px black solid;
@@ -76,7 +105,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: row;
   position: relative;
-  box-shadow: 3px 3px 4px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   margin: 20px;
 }
 
@@ -85,6 +114,7 @@ nav ul li a:hover {
   left: 400px;
   top: 100px;
   margin: 50px;
+  text-align: center;
 }
 .sec {
   display: flex;
@@ -128,7 +158,7 @@ nav ul li a:hover {
   text-align: center;
   padding: 1px;
   border: 3px black solid;
-  background-color: #2d3e50;
+  background-color: var(--btncolor);
   padding: 10px;
   margin-left: 430px;
   border-radius: 10px;
@@ -154,7 +184,7 @@ nav ul li a:hover {
 
 .link5 {
   text-decoration: none;
-  background-color: #2d3e50;
+  background-color: var(--btncolor);
   padding: 10px;
   color: white;
   border-radius: 10px;
